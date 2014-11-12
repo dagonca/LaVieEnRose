@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BADEFBBE1A13C03E00956D04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFBBD1A13C03E00956D04 /* main.m */; };
+		BADEFBC11A13C03E00956D04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFBC01A13C03E00956D04 /* AppDelegate.m */; };
+		BADEFBC41A13C03E00956D04 /* LaVieEnRose.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BADEFBC21A13C03E00956D04 /* LaVieEnRose.xcdatamodeld */; };
+		BADEFBC71A13C03E00956D04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFBC61A13C03E00956D04 /* ViewController.m */; };
+		BADEFBCA1A13C03E00956D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADEFBC81A13C03E00956D04 /* Main.storyboard */; };
+		BADEFBCC1A13C03E00956D04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADEFBCB1A13C03E00956D04 /* Images.xcassets */; };
+		BADEFBCF1A13C03E00956D04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BADEFBCD1A13C03E00956D04 /* LaunchScreen.xib */; };
+		BADEFBDB1A13C03F00956D04 /* LaVieEnRoseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFBDA1A13C03F00956D04 /* LaVieEnRoseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BADEFBD51A13C03F00956D04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BADEFBB01A13C03E00956D04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BADEFBB71A13C03E00956D04;
+			remoteInfo = LaVieEnRose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BADEFBB81A13C03E00956D04 /* LaVieEnRose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaVieEnRose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADEFBBC1A13C03E00956D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADEFBBD1A13C03E00956D04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BADEFBBF1A13C03E00956D04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BADEFBC01A13C03E00956D04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BADEFBC31A13C03E00956D04 /* LaVieEnRose.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LaVieEnRose.xcdatamodel; sourceTree = "<group>"; };
+		BADEFBC51A13C03E00956D04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BADEFBC61A13C03E00956D04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BADEFBC91A13C03E00956D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BADEFBCB1A13C03E00956D04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BADEFBCE1A13C03E00956D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BADEFBD41A13C03F00956D04 /* LaVieEnRoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaVieEnRoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADEFBD91A13C03F00956D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADEFBDA1A13C03F00956D04 /* LaVieEnRoseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaVieEnRoseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BADEFBB51A13C03E00956D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADEFBD11A13C03F00956D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BADEFBAF1A13C03E00956D04 = {
+			isa = PBXGroup;
+			children = (
+				BADEFBBA1A13C03E00956D04 /* LaVieEnRose */,
+				BADEFBD71A13C03F00956D04 /* LaVieEnRoseTests */,
+				BADEFBB91A13C03E00956D04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BADEFBB91A13C03E00956D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BADEFBB81A13C03E00956D04 /* LaVieEnRose.app */,
+				BADEFBD41A13C03F00956D04 /* LaVieEnRoseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BADEFBBA1A13C03E00956D04 /* LaVieEnRose */ = {
+			isa = PBXGroup;
+			children = (
+				BADEFBBF1A13C03E00956D04 /* AppDelegate.h */,
+				BADEFBC01A13C03E00956D04 /* AppDelegate.m */,
+				BADEFBC51A13C03E00956D04 /* ViewController.h */,
+				BADEFBC61A13C03E00956D04 /* ViewController.m */,
+				BADEFBC81A13C03E00956D04 /* Main.storyboard */,
+				BADEFBCB1A13C03E00956D04 /* Images.xcassets */,
+				BADEFBCD1A13C03E00956D04 /* LaunchScreen.xib */,
+				BADEFBC21A13C03E00956D04 /* LaVieEnRose.xcdatamodeld */,
+				BADEFBBB1A13C03E00956D04 /* Supporting Files */,
+			);
+			path = LaVieEnRose;
+			sourceTree = "<group>";
+		};
+		BADEFBBB1A13C03E00956D04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BADEFBBC1A13C03E00956D04 /* Info.plist */,
+				BADEFBBD1A13C03E00956D04 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BADEFBD71A13C03F00956D04 /* LaVieEnRoseTests */ = {
+			isa = PBXGroup;
+			children = (
+				BADEFBDA1A13C03F00956D04 /* LaVieEnRoseTests.m */,
+				BADEFBD81A13C03F00956D04 /* Supporting Files */,
+			);
+			path = LaVieEnRoseTests;
+			sourceTree = "<group>";
+		};
+		BADEFBD81A13C03F00956D04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BADEFBD91A13C03F00956D04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BADEFBB71A13C03E00956D04 /* LaVieEnRose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADEFBDE1A13C03F00956D04 /* Build configuration list for PBXNativeTarget "LaVieEnRose" */;
+			buildPhases = (
+				BADEFBB41A13C03E00956D04 /* Sources */,
+				BADEFBB51A13C03E00956D04 /* Frameworks */,
+				BADEFBB61A13C03E00956D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaVieEnRose;
+			productName = LaVieEnRose;
+			productReference = BADEFBB81A13C03E00956D04 /* LaVieEnRose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BADEFBD31A13C03F00956D04 /* LaVieEnRoseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADEFBE11A13C03F00956D04 /* Build configuration list for PBXNativeTarget "LaVieEnRoseTests" */;
+			buildPhases = (
+				BADEFBD01A13C03F00956D04 /* Sources */,
+				BADEFBD11A13C03F00956D04 /* Frameworks */,
+				BADEFBD21A13C03F00956D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BADEFBD61A13C03F00956D04 /* PBXTargetDependency */,
+			);
+			name = LaVieEnRoseTests;
+			productName = LaVieEnRoseTests;
+			productReference = BADEFBD41A13C03F00956D04 /* LaVieEnRoseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BADEFBB01A13C03E00956D04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Dani Gonzalez castillo";
+				TargetAttributes = {
+					BADEFBB71A13C03E00956D04 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BADEFBD31A13C03F00956D04 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BADEFBB71A13C03E00956D04;
+					};
+				};
+			};
+			buildConfigurationList = BADEFBB31A13C03E00956D04 /* Build configuration list for PBXProject "LaVieEnRose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BADEFBAF1A13C03E00956D04;
+			productRefGroup = BADEFBB91A13C03E00956D04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BADEFBB71A13C03E00956D04 /* LaVieEnRose */,
+				BADEFBD31A13C03F00956D04 /* LaVieEnRoseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BADEFBB61A13C03E00956D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADEFBCA1A13C03E00956D04 /* Main.storyboard in Resources */,
+				BADEFBCF1A13C03E00956D04 /* LaunchScreen.xib in Resources */,
+				BADEFBCC1A13C03E00956D04 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADEFBD21A13C03F00956D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BADEFBB41A13C03E00956D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADEFBC11A13C03E00956D04 /* AppDelegate.m in Sources */,
+				BADEFBBE1A13C03E00956D04 /* main.m in Sources */,
+				BADEFBC71A13C03E00956D04 /* ViewController.m in Sources */,
+				BADEFBC41A13C03E00956D04 /* LaVieEnRose.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADEFBD01A13C03F00956D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADEFBDB1A13C03F00956D04 /* LaVieEnRoseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BADEFBD61A13C03F00956D04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BADEFBB71A13C03E00956D04 /* LaVieEnRose */;
+			targetProxy = BADEFBD51A13C03F00956D04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BADEFBC81A13C03E00956D04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADEFBC91A13C03E00956D04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BADEFBCD1A13C03E00956D04 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADEFBCE1A13C03E00956D04 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BADEFBDC1A13C03F00956D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BADEFBDD1A13C03F00956D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BADEFBDF1A13C03F00956D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaVieEnRose/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BADEFBE01A13C03F00956D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaVieEnRose/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BADEFBE21A13C03F00956D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LaVieEnRoseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaVieEnRose.app/LaVieEnRose";
+			};
+			name = Debug;
+		};
+		BADEFBE31A13C03F00956D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LaVieEnRoseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaVieEnRose.app/LaVieEnRose";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BADEFBB31A13C03E00956D04 /* Build configuration list for PBXProject "LaVieEnRose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADEFBDC1A13C03F00956D04 /* Debug */,
+				BADEFBDD1A13C03F00956D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADEFBDE1A13C03F00956D04 /* Build configuration list for PBXNativeTarget "LaVieEnRose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADEFBDF1A13C03F00956D04 /* Debug */,
+				BADEFBE01A13C03F00956D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BADEFBE11A13C03F00956D04 /* Build configuration list for PBXNativeTarget "LaVieEnRoseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADEFBE21A13C03F00956D04 /* Debug */,
+				BADEFBE31A13C03F00956D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BADEFBC21A13C03E00956D04 /* LaVieEnRose.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BADEFBC31A13C03E00956D04 /* LaVieEnRose.xcdatamodel */,
+			);
+			currentVersion = BADEFBC31A13C03E00956D04 /* LaVieEnRose.xcdatamodel */;
+			path = LaVieEnRose.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BADEFBB01A13C03E00956D04 /* Project object */;
+}
