@@ -11,5 +11,8 @@
 @interface ViewController : UIViewController
 
 
+@property (weak, nonatomic) IBOutlet UILabel *texto;
+@property (weak, nonatomic) IBOutlet UIImageView *imagen;
+
 @end
 

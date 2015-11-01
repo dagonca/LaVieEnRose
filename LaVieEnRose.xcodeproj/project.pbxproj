@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA6D70F11A18C3A000155E72 /* atras.png in Resources */ = {isa = PBXBuildFile; fileRef = BA6D70F01A18C3A000155E72 /* atras.png */; };
+		BA97FF1D1A176FC300954602 /* PedidoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA97FF1C1A176FC300954602 /* PedidoViewController.m */; };
+		BA97FF1F1A17856D00954602 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = BA97FF1E1A17856D00954602 /* refresh.png */; };
+		BA97FF231A17866C00954602 /* collares.png in Resources */ = {isa = PBXBuildFile; fileRef = BA97FF201A17866C00954602 /* collares.png */; };
+		BA97FF241A17866C00954602 /* anillos.png in Resources */ = {isa = PBXBuildFile; fileRef = BA97FF211A17866C00954602 /* anillos.png */; };
+		BA97FF251A17866C00954602 /* pulseras.png in Resources */ = {isa = PBXBuildFile; fileRef = BA97FF221A17866C00954602 /* pulseras.png */; };
+		BA97FF271A17890E00954602 /* otros.png in Resources */ = {isa = PBXBuildFile; fileRef = BA97FF261A17890E00954602 /* otros.png */; };
+		BAC779011A1665B600182146 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = BAC779001A1665B600182146 /* splash.png */; };
+		BAC779061A16709B00182146 /* CarroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC779031A16709B00182146 /* CarroViewController.m */; };
+		BAC779071A16709B00182146 /* CarritoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC779051A16709B00182146 /* CarritoTableViewCell.m */; };
 		BADEFBBE1A13C03E00956D04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFBBD1A13C03E00956D04 /* main.m */; };
 		BADEFBC11A13C03E00956D04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFBC01A13C03E00956D04 /* AppDelegate.m */; };
 		BADEFBC41A13C03E00956D04 /* LaVieEnRose.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BADEFBC21A13C03E00956D04 /* LaVieEnRose.xcdatamodeld */; };
@@ -15,6 +25,37 @@
 		BADEFBCC1A13C03E00956D04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADEFBCB1A13C03E00956D04 /* Images.xcassets */; };
 		BADEFBCF1A13C03E00956D04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BADEFBCD1A13C03E00956D04 /* LaunchScreen.xib */; };
 		BADEFBDB1A13C03F00956D04 /* LaVieEnRoseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFBDA1A13C03F00956D04 /* LaVieEnRoseTests.m */; };
+		BADEFBE51A13C2BB00956D04 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBE41A13C2BB00956D04 /* CoreText.framework */; };
+		BADEFBE71A13C2C400956D04 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBE61A13C2C400956D04 /* StoreKit.framework */; };
+		BADEFBE91A13C2CD00956D04 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBE81A13C2CD00956D04 /* QuartzCore.framework */; };
+		BADEFBEB1A13C2DC00956D04 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBEA1A13C2DC00956D04 /* Security.framework */; };
+		BADEFBED1A13C2E700956D04 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBEC1A13C2E700956D04 /* libz.1.1.3.dylib */; };
+		BADEFBEF1A13C2F100956D04 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBEE1A13C2F100956D04 /* MobileCoreServices.framework */; };
+		BADEFBF11A13C30100956D04 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBF01A13C30100956D04 /* SystemConfiguration.framework */; };
+		BADEFBF31A13C30A00956D04 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBF21A13C30A00956D04 /* CFNetwork.framework */; };
+		BADEFBF51A13C31400956D04 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBF41A13C31400956D04 /* AudioToolbox.framework */; };
+		BADEFBF71A13C32000956D04 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBF61A13C32000956D04 /* CoreLocation.framework */; };
+		BADEFBF91A13C32C00956D04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBF81A13C32C00956D04 /* Foundation.framework */; };
+		BADEFBFB1A13C33600956D04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBFA1A13C33600956D04 /* CoreGraphics.framework */; };
+		BADEFBFD1A13C34300956D04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBFC1A13C34300956D04 /* UIKit.framework */; };
+		BADEFBFF1A13C3C200956D04 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BADEFBFE1A13C3C200956D04 /* Parse.framework */; };
+		BADEFC041A13CA6600956D04 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFC031A13CA6600956D04 /* TwitterViewController.m */; };
+		BADEFC071A13CA7100956D04 /* AnillosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFC061A13CA7100956D04 /* AnillosViewController.m */; };
+		BADEFC0D1A13CA9500956D04 /* PulserasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFC0C1A13CA9500956D04 /* PulserasViewController.m */; };
+		BADEFC101A13CAA600956D04 /* CollaresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFC0F1A13CAA600956D04 /* CollaresViewController.m */; };
+		BADEFC131A13CAD000956D04 /* OtrosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFC121A13CAD000956D04 /* OtrosViewController.m */; };
+		BADEFC161A13CAF400956D04 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFC151A13CAF400956D04 /* InfoViewController.m */; };
+		BADEFC1C1A13CC2000956D04 /* tarjeta.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFC171A13CC2000956D04 /* tarjeta.png */; };
+		BADEFC1D1A13CC2000956D04 /* contacta.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFC181A13CC2000956D04 /* contacta.png */; };
+		BADEFC1E1A13CC2000956D04 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFC191A13CC2000956D04 /* twitter.png */; };
+		BADEFC1F1A13CC2000956D04 /* insta.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFC1A1A13CC2000956D04 /* insta.png */; };
+		BADEFC201A13CC2000956D04 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFC1B1A13CC2000956D04 /* face.png */; };
+		BADEFC231A13CE5900956D04 /* twitter.html in Resources */ = {isa = PBXBuildFile; fileRef = BADEFC221A13CE5900956D04 /* twitter.html */; };
+		BADEFC261A13D0EB00956D04 /* ContactoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFC251A13D0EB00956D04 /* ContactoViewController.m */; };
+		BADEFC291A13DCE800956D04 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BADEFC281A13DCE800956D04 /* CollectionViewCell.m */; };
+		BADEFC2B1A13FC5A00956D04 /* agotado.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFC2A1A13FC5A00956D04 /* agotado.png */; };
+		BADEFC2E1A1414D300956D04 /* HoneyScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BADEFC2D1A1413C700956D04 /* HoneyScript-SemiBold.ttf */; };
+		BADEFC301A14154A00956D04 /* carrito.png in Resources */ = {isa = PBXBuildFile; fileRef = BADEFC2F1A14154A00956D04 /* carrito.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +69,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA6D70F01A18C3A000155E72 /* atras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = atras.png; sourceTree = "<group>"; };
+		BA97FF1B1A176FC300954602 /* PedidoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PedidoViewController.h; sourceTree = "<group>"; };
+		BA97FF1C1A176FC300954602 /* PedidoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PedidoViewController.m; sourceTree = "<group>"; };
+		BA97FF1E1A17856D00954602 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		BA97FF201A17866C00954602 /* collares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collares.png; sourceTree = "<group>"; };
+		BA97FF211A17866C00954602 /* anillos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anillos.png; sourceTree = "<group>"; };
+		BA97FF221A17866C00954602 /* pulseras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pulseras.png; sourceTree = "<group>"; };
+		BA97FF261A17890E00954602 /* otros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = otros.png; sourceTree = "<group>"; };
+		BAC779001A1665B600182146 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		BAC779021A16709B00182146 /* CarroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarroViewController.h; sourceTree = "<group>"; };
+		BAC779031A16709B00182146 /* CarroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarroViewController.m; sourceTree = "<group>"; };
+		BAC779041A16709B00182146 /* CarritoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarritoTableViewCell.h; sourceTree = "<group>"; };
+		BAC779051A16709B00182146 /* CarritoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarritoTableViewCell.m; sourceTree = "<group>"; };
 		BADEFBB81A13C03E00956D04 /* LaVieEnRose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaVieEnRose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADEFBBC1A13C03E00956D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BADEFBBD1A13C03E00956D04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +96,45 @@
 		BADEFBD41A13C03F00956D04 /* LaVieEnRoseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaVieEnRoseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BADEFBD91A13C03F00956D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BADEFBDA1A13C03F00956D04 /* LaVieEnRoseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaVieEnRoseTests.m; sourceTree = "<group>"; };
+		BADEFBE41A13C2BB00956D04 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		BADEFBE61A13C2C400956D04 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BADEFBE81A13C2CD00956D04 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BADEFBEA1A13C2DC00956D04 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BADEFBEC1A13C2E700956D04 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		BADEFBEE1A13C2F100956D04 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BADEFBF01A13C30100956D04 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BADEFBF21A13C30A00956D04 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BADEFBF41A13C31400956D04 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BADEFBF61A13C32000956D04 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BADEFBF81A13C32C00956D04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BADEFBFA1A13C33600956D04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BADEFBFC1A13C34300956D04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BADEFBFE1A13C3C200956D04 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BADEFC021A13CA6600956D04 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		BADEFC031A13CA6600956D04 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		BADEFC051A13CA7100956D04 /* AnillosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnillosViewController.h; sourceTree = "<group>"; };
+		BADEFC061A13CA7100956D04 /* AnillosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnillosViewController.m; sourceTree = "<group>"; };
+		BADEFC0B1A13CA9500956D04 /* PulserasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PulserasViewController.h; sourceTree = "<group>"; };
+		BADEFC0C1A13CA9500956D04 /* PulserasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PulserasViewController.m; sourceTree = "<group>"; };
+		BADEFC0E1A13CAA600956D04 /* CollaresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollaresViewController.h; sourceTree = "<group>"; };
+		BADEFC0F1A13CAA600956D04 /* CollaresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollaresViewController.m; sourceTree = "<group>"; };
+		BADEFC111A13CAD000956D04 /* OtrosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtrosViewController.h; sourceTree = "<group>"; };
+		BADEFC121A13CAD000956D04 /* OtrosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtrosViewController.m; sourceTree = "<group>"; };
+		BADEFC141A13CAF400956D04 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		BADEFC151A13CAF400956D04 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		BADEFC171A13CC2000956D04 /* tarjeta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tarjeta.png; sourceTree = "<group>"; };
+		BADEFC181A13CC2000956D04 /* contacta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contacta.png; sourceTree = "<group>"; };
+		BADEFC191A13CC2000956D04 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		BADEFC1A1A13CC2000956D04 /* insta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insta.png; sourceTree = "<group>"; };
+		BADEFC1B1A13CC2000956D04 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		BADEFC221A13CE5900956D04 /* twitter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = twitter.html; sourceTree = "<group>"; };
+		BADEFC241A13D0EB00956D04 /* ContactoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactoViewController.h; sourceTree = "<group>"; };
+		BADEFC251A13D0EB00956D04 /* ContactoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactoViewController.m; sourceTree = "<group>"; };
+		BADEFC271A13DCE800956D04 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		BADEFC281A13DCE800956D04 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		BADEFC2A1A13FC5A00956D04 /* agotado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agotado.png; sourceTree = "<group>"; };
+		BADEFC2D1A1413C700956D04 /* HoneyScript-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HoneyScript-SemiBold.ttf"; sourceTree = "<group>"; };
+		BADEFC2F1A14154A00956D04 /* carrito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carrito.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +142,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BADEFBFD1A13C34300956D04 /* UIKit.framework in Frameworks */,
+				BADEFBFB1A13C33600956D04 /* CoreGraphics.framework in Frameworks */,
+				BADEFBF91A13C32C00956D04 /* Foundation.framework in Frameworks */,
+				BADEFBF71A13C32000956D04 /* CoreLocation.framework in Frameworks */,
+				BADEFBF51A13C31400956D04 /* AudioToolbox.framework in Frameworks */,
+				BADEFBF31A13C30A00956D04 /* CFNetwork.framework in Frameworks */,
+				BADEFBF11A13C30100956D04 /* SystemConfiguration.framework in Frameworks */,
+				BADEFBEF1A13C2F100956D04 /* MobileCoreServices.framework in Frameworks */,
+				BADEFBED1A13C2E700956D04 /* libz.1.1.3.dylib in Frameworks */,
+				BADEFBEB1A13C2DC00956D04 /* Security.framework in Frameworks */,
+				BADEFBFF1A13C3C200956D04 /* Parse.framework in Frameworks */,
+				BADEFBE91A13C2CD00956D04 /* QuartzCore.framework in Frameworks */,
+				BADEFBE71A13C2C400956D04 /* StoreKit.framework in Frameworks */,
+				BADEFBE51A13C2BB00956D04 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,9 +172,34 @@
 		BADEFBAF1A13C03E00956D04 = {
 			isa = PBXGroup;
 			children = (
+				BA97FF1B1A176FC300954602 /* PedidoViewController.h */,
+				BA97FF1C1A176FC300954602 /* PedidoViewController.m */,
+				BADEFC221A13CE5900956D04 /* twitter.html */,
+				BADEFC271A13DCE800956D04 /* CollectionViewCell.h */,
+				BADEFC281A13DCE800956D04 /* CollectionViewCell.m */,
+				BADEFC241A13D0EB00956D04 /* ContactoViewController.h */,
+				BADEFC251A13D0EB00956D04 /* ContactoViewController.m */,
+				BADEFC141A13CAF400956D04 /* InfoViewController.h */,
+				BADEFC151A13CAF400956D04 /* InfoViewController.m */,
+				BADEFC111A13CAD000956D04 /* OtrosViewController.h */,
+				BADEFC121A13CAD000956D04 /* OtrosViewController.m */,
+				BADEFC0E1A13CAA600956D04 /* CollaresViewController.h */,
+				BADEFC0F1A13CAA600956D04 /* CollaresViewController.m */,
+				BADEFC0B1A13CA9500956D04 /* PulserasViewController.h */,
+				BADEFC0C1A13CA9500956D04 /* PulserasViewController.m */,
+				BADEFC051A13CA7100956D04 /* AnillosViewController.h */,
+				BADEFC061A13CA7100956D04 /* AnillosViewController.m */,
+				BADEFC021A13CA6600956D04 /* TwitterViewController.h */,
+				BADEFC031A13CA6600956D04 /* TwitterViewController.m */,
+				BAC779021A16709B00182146 /* CarroViewController.h */,
+				BAC779031A16709B00182146 /* CarroViewController.m */,
+				BAC779041A16709B00182146 /* CarritoTableViewCell.h */,
+				BAC779051A16709B00182146 /* CarritoTableViewCell.m */,
+				BADEFC211A13CC2700956D04 /* imagenes */,
 				BADEFBBA1A13C03E00956D04 /* LaVieEnRose */,
 				BADEFBD71A13C03F00956D04 /* LaVieEnRoseTests */,
 				BADEFBB91A13C03E00956D04 /* Products */,
+				BADEFC001A13C3CC00956D04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +254,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BADEFC001A13C3CC00956D04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BADEFBFC1A13C34300956D04 /* UIKit.framework */,
+				BADEFBFA1A13C33600956D04 /* CoreGraphics.framework */,
+				BADEFBF81A13C32C00956D04 /* Foundation.framework */,
+				BADEFBF61A13C32000956D04 /* CoreLocation.framework */,
+				BADEFBF41A13C31400956D04 /* AudioToolbox.framework */,
+				BADEFBF21A13C30A00956D04 /* CFNetwork.framework */,
+				BADEFBF01A13C30100956D04 /* SystemConfiguration.framework */,
+				BADEFBEE1A13C2F100956D04 /* MobileCoreServices.framework */,
+				BADEFBEC1A13C2E700956D04 /* libz.1.1.3.dylib */,
+				BADEFBFE1A13C3C200956D04 /* Parse.framework */,
+				BADEFBEA1A13C2DC00956D04 /* Security.framework */,
+				BADEFBE81A13C2CD00956D04 /* QuartzCore.framework */,
+				BADEFBE61A13C2C400956D04 /* StoreKit.framework */,
+				BADEFBE41A13C2BB00956D04 /* CoreText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BADEFC211A13CC2700956D04 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				BA97FF261A17890E00954602 /* otros.png */,
+				BA97FF1E1A17856D00954602 /* refresh.png */,
+				BADEFC2D1A1413C700956D04 /* HoneyScript-SemiBold.ttf */,
+				BADEFC2F1A14154A00956D04 /* carrito.png */,
+				BADEFC2A1A13FC5A00956D04 /* agotado.png */,
+				BA6D70F01A18C3A000155E72 /* atras.png */,
+				BADEFC171A13CC2000956D04 /* tarjeta.png */,
+				BADEFC181A13CC2000956D04 /* contacta.png */,
+				BADEFC191A13CC2000956D04 /* twitter.png */,
+				BADEFC1A1A13CC2000956D04 /* insta.png */,
+				BADEFC1B1A13CC2000956D04 /* face.png */,
+				BAC779001A1665B600182146 /* splash.png */,
+				BA97FF201A17866C00954602 /* collares.png */,
+				BA97FF211A17866C00954602 /* anillos.png */,
+				BA97FF221A17866C00954602 /* pulseras.png */,
+			);
+			name = imagenes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +346,11 @@
 				TargetAttributes = {
 					BADEFBB71A13C03E00956D04 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = H263T7KEAY;
 					};
 					BADEFBD31A13C03F00956D04 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = H263T7KEAY;
 						TestTargetID = BADEFBB71A13C03E00956D04;
 					};
 				};
@@ -202,9 +379,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA97FF251A17866C00954602 /* pulseras.png in Resources */,
+				BA97FF241A17866C00954602 /* anillos.png in Resources */,
+				BADEFC2E1A1414D300956D04 /* HoneyScript-SemiBold.ttf in Resources */,
+				BAC779011A1665B600182146 /* splash.png in Resources */,
 				BADEFBCA1A13C03E00956D04 /* Main.storyboard in Resources */,
+				BA97FF1F1A17856D00954602 /* refresh.png in Resources */,
+				BADEFC301A14154A00956D04 /* carrito.png in Resources */,
+				BA97FF271A17890E00954602 /* otros.png in Resources */,
+				BADEFC1C1A13CC2000956D04 /* tarjeta.png in Resources */,
+				BADEFC201A13CC2000956D04 /* face.png in Resources */,
+				BADEFC2B1A13FC5A00956D04 /* agotado.png in Resources */,
 				BADEFBCF1A13C03E00956D04 /* LaunchScreen.xib in Resources */,
+				BADEFC1E1A13CC2000956D04 /* twitter.png in Resources */,
+				BADEFC1F1A13CC2000956D04 /* insta.png in Resources */,
 				BADEFBCC1A13C03E00956D04 /* Images.xcassets in Resources */,
+				BADEFC1D1A13CC2000956D04 /* contacta.png in Resources */,
+				BA6D70F11A18C3A000155E72 /* atras.png in Resources */,
+				BA97FF231A17866C00954602 /* collares.png in Resources */,
+				BADEFC231A13CE5900956D04 /* twitter.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,10 +415,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC779071A16709B00182146 /* CarritoTableViewCell.m in Sources */,
 				BADEFBC11A13C03E00956D04 /* AppDelegate.m in Sources */,
+				BADEFC131A13CAD000956D04 /* OtrosViewController.m in Sources */,
 				BADEFBBE1A13C03E00956D04 /* main.m in Sources */,
+				BA97FF1D1A176FC300954602 /* PedidoViewController.m in Sources */,
 				BADEFBC71A13C03E00956D04 /* ViewController.m in Sources */,
+				BAC779061A16709B00182146 /* CarroViewController.m in Sources */,
+				BADEFC041A13CA6600956D04 /* TwitterViewController.m in Sources */,
+				BADEFC0D1A13CA9500956D04 /* PulserasViewController.m in Sources */,
+				BADEFC291A13DCE800956D04 /* CollectionViewCell.m in Sources */,
 				BADEFBC41A13C03E00956D04 /* LaVieEnRose.xcdatamodeld in Sources */,
+				BADEFC071A13CA7100956D04 /* AnillosViewController.m in Sources */,
+				BADEFC261A13D0EB00956D04 /* ContactoViewController.m in Sources */,
+				BADEFC161A13CAF400956D04 /* InfoViewController.m in Sources */,
+				BADEFC101A13CAA600956D04 /* CollaresViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +488,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dani Gonzalez Castillo (TGE2GFH87B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dani Gonzalez Castillo (TGE2GFH87B)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -304,6 +509,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8a6f132b-df7c-40a0-8aee-8b91d8503b69";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -325,7 +531,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dani Gonzalez Castillo (TGE2GFH87B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dani Gonzalez Castillo (TGE2GFH87B)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -338,6 +545,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "8a6f132b-df7c-40a0-8aee-8b91d8503b69";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -347,9 +555,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dani Gonzalez Castillo (TGE2GFH87B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dani Gonzalez Castillo (TGE2GFH87B)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LaVieEnRose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8a6f132b-df7c-40a0-8aee-8b91d8503b69";
 			};
 			name = Debug;
 		};
@@ -357,9 +572,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dani Gonzalez Castillo (TGE2GFH87B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dani Gonzalez Castillo (TGE2GFH87B)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LaVieEnRose/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8a6f132b-df7c-40a0-8aee-8b91d8503b69";
 			};
 			name = Release;
 		};
@@ -367,6 +589,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -378,6 +602,7 @@
 				INFOPLIST_FILE = LaVieEnRoseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaVieEnRose.app/LaVieEnRose";
 			};
 			name = Debug;
@@ -386,6 +611,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -393,6 +620,7 @@
 				INFOPLIST_FILE = LaVieEnRoseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaVieEnRose.app/LaVieEnRose";
 			};
 			name = Release;
@@ -416,6 +644,7 @@
 				BADEFBE01A13C03F00956D04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BADEFBE11A13C03F00956D04 /* Build configuration list for PBXNativeTarget "LaVieEnRoseTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +653,7 @@
 				BADEFBE31A13C03F00956D04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -7,17 +7,92 @@
 //
 
 #import "AppDelegate.h"
-
+#import <Parse/Parse.h>
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+@synthesize globalArray,globalArray1,globalArray2,globalArray3;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    sleep(1);
+    
+    [Parse setApplicationId:@"fTZXTV1w9BMtAvHmSzq4Kces17V64ZY24gbElzOP"
+                  clientKey:@"4v57qoK1FQpf4e4g6DAN76E0OGI0wSfFjgMVNvfu"];
+    
+    
+    
+    self.globalArray = [NSMutableArray array];
+    self.globalArray1 = [NSMutableArray array];
+    self.globalArray2 = [NSMutableArray array];
+    self.globalArray3 = [NSMutableArray array];
+
+    
+    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+    globalArray=[[def objectForKey:@"globalArray"]mutableCopy];
+    
+    NSUserDefaults *def1 = [NSUserDefaults standardUserDefaults];
+    globalArray1=[[def1 objectForKey:@"globalArray1"]mutableCopy];
+    
+    NSUserDefaults *def2 = [NSUserDefaults standardUserDefaults];
+    globalArray2=[[def2 objectForKey:@"globalArray2"]mutableCopy];
+    
+    NSUserDefaults *def3 = [NSUserDefaults standardUserDefaults];
+    globalArray3=[[def3 objectForKey:@"globalArray3"]mutableCopy];
+
+    
+
+    
+    if (globalArray.count == 0) {
+        self.globalArray = [NSMutableArray array];
+        
+    }
+    
+    if (globalArray1.count == 0) {
+        self.globalArray1 = [NSMutableArray array];
+        
+    }
+    
+    if (globalArray2.count == 0) {
+        self.globalArray2 = [NSMutableArray array];
+        
+    }
+    if (globalArray3.count == 0) {
+        self.globalArray3 = [NSMutableArray array];
+        
+    }
+
+    // Register for Push Notitications
+    UIUserNotificationType userNotificationTypes = (UIUserNotificationTypeAlert |
+                                                    UIUserNotificationTypeBadge |
+                                                    UIUserNotificationTypeSound);
+    UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:userNotificationTypes
+                                                                             categories:nil];
+    [application registerUserNotificationSettings:settings];
+    [application registerForRemoteNotifications];
+    
+    
+    
+    
     return YES;
+}
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    // Store the deviceToken in the current installation and save it to Parse.
+    PFInstallation *currentInstallation = [PFInstallation currentInstallation];
+    [currentInstallation setDeviceTokenFromData:deviceToken];
+    [currentInstallation saveInBackground];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    [PFPush handlePush:userInfo];
+}
+
+-(void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error{
+    UIAlertView *failed = [[UIAlertView alloc]initWithTitle:@"Error" message:@"Imposible conectar con el servidor" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles: nil];
+    [failed show];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -26,6 +101,28 @@
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
+    
+    
+    
+    NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+    [def setObject:globalArray forKey:@"globalArray"];
+    [def synchronize];
+    
+    NSUserDefaults *def1 = [NSUserDefaults standardUserDefaults];
+    [def1 setObject:globalArray1 forKey:@"globalArray1"];
+    [def1 synchronize];
+    
+    NSUserDefaults *def2 = [NSUserDefaults standardUserDefaults];
+    [def2 setObject:globalArray2 forKey:@"globalArray2"];
+    [def2 synchronize];
+  
+    NSUserDefaults *def3 = [NSUserDefaults standardUserDefaults];
+    [def3 setObject:globalArray3 forKey:@"globalArray3"];
+    [def3 synchronize];
+
+    
+    
+
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
